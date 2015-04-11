@@ -15,6 +15,7 @@
 		327E26171AD89ADC001876AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327E26161AD89ADC001876AB /* Images.xcassets */; };
 		327E261A1AD89ADC001876AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327E26181AD89ADC001876AB /* LaunchScreen.xib */; };
 		327E26261AD89ADC001876AB /* appleSNQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26251AD89ADC001876AB /* appleSNQueryTests.m */; };
+		327E26311AD89E9D001876AB /* QuerySnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26301AD89E9D001876AB /* QuerySnViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		327E261F1AD89ADC001876AB /* appleSNQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appleSNQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E26241AD89ADC001876AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327E26251AD89ADC001876AB /* appleSNQueryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appleSNQueryTests.m; sourceTree = "<group>"; };
+		327E262F1AD89E9D001876AB /* QuerySnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySnViewController.h; sourceTree = "<group>"; };
+		327E26301AD89E9D001876AB /* QuerySnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuerySnViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +86,11 @@
 		327E26051AD89ADC001876AB /* appleSNQuery */ = {
 			isa = PBXGroup;
 			children = (
-				327E260A1AD89ADC001876AB /* AppDelegate.h */,
-				327E260B1AD89ADC001876AB /* AppDelegate.m */,
 				327E26101AD89ADC001876AB /* ViewController.h */,
 				327E26111AD89ADC001876AB /* ViewController.m */,
 				327E26131AD89ADC001876AB /* Main.storyboard */,
+				327E262F1AD89E9D001876AB /* QuerySnViewController.h */,
+				327E26301AD89E9D001876AB /* QuerySnViewController.m */,
 				327E26161AD89ADC001876AB /* Images.xcassets */,
 				327E26181AD89ADC001876AB /* LaunchScreen.xib */,
 				327E260D1AD89ADC001876AB /* appleSNQuery.xcdatamodeld */,
@@ -99,6 +102,8 @@
 		327E26061AD89ADC001876AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				327E260A1AD89ADC001876AB /* AppDelegate.h */,
+				327E260B1AD89ADC001876AB /* AppDelegate.m */,
 				327E26071AD89ADC001876AB /* Info.plist */,
 				327E26081AD89ADC001876AB /* main.m */,
 			);
@@ -225,6 +230,7 @@
 				327E260C1AD89ADC001876AB /* AppDelegate.m in Sources */,
 				327E26091AD89ADC001876AB /* main.m in Sources */,
 				327E26121AD89ADC001876AB /* ViewController.m in Sources */,
+				327E26311AD89E9D001876AB /* QuerySnViewController.m in Sources */,
 				327E260F1AD89ADC001876AB /* appleSNQuery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
