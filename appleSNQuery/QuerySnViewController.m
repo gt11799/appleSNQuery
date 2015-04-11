@@ -7,6 +7,8 @@
 //
 
 #import "QuerySnViewController.h"
+#import "JHAPISDK.h"
+#import "JHOpenidSupplier.h"
 
 @interface QuerySnViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *resultDisplay;
@@ -17,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[JHOpenidSupplier shareSupplier] registerJuheAPIByOpenId:@"JHd1f3381f2bd72fe420b35f7142ce2237"];
     self.resultDisplay.text = self.SNToQuery;
     // Do any additional setup after loading the view.
 }

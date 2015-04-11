@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		327E26091AD89ADC001876AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26081AD89ADC001876AB /* main.m */; };
-		327E260C1AD89ADC001876AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E260B1AD89ADC001876AB /* AppDelegate.m */; };
+		327E260C1AD89ADC001876AB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 327E260B1AD89ADC001876AB /* AppDelegate.mm */; };
 		327E260F1AD89ADC001876AB /* appleSNQuery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 327E260D1AD89ADC001876AB /* appleSNQuery.xcdatamodeld */; };
 		327E26121AD89ADC001876AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26111AD89ADC001876AB /* ViewController.m */; };
 		327E26151AD89ADC001876AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327E26131AD89ADC001876AB /* Main.storyboard */; };
@@ -16,6 +16,10 @@
 		327E261A1AD89ADC001876AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327E26181AD89ADC001876AB /* LaunchScreen.xib */; };
 		327E26261AD89ADC001876AB /* appleSNQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26251AD89ADC001876AB /* appleSNQueryTests.m */; };
 		327E26311AD89E9D001876AB /* QuerySnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26301AD89E9D001876AB /* QuerySnViewController.m */; };
+		327E26351AD9279E001876AB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26341AD9279E001876AB /* CoreTelephony.framework */; };
+		327E26371AD927AA001876AB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26361AD927AA001876AB /* AdSupport.framework */; };
+		327E26391AD927B4001876AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26381AD927B4001876AB /* CoreLocation.framework */; };
+		327E263E1AD92BF0001876AB /* JuheApisSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E263D1AD92BF0001876AB /* JuheApisSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +37,7 @@
 		327E26071AD89ADC001876AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327E26081AD89ADC001876AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		327E260A1AD89ADC001876AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		327E260B1AD89ADC001876AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		327E260B1AD89ADC001876AB /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		327E260E1AD89ADC001876AB /* appleSNQuery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appleSNQuery.xcdatamodel; sourceTree = "<group>"; };
 		327E26101AD89ADC001876AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		327E26111AD89ADC001876AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -45,6 +49,12 @@
 		327E26251AD89ADC001876AB /* appleSNQueryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appleSNQueryTests.m; sourceTree = "<group>"; };
 		327E262F1AD89E9D001876AB /* QuerySnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySnViewController.h; sourceTree = "<group>"; };
 		327E26301AD89E9D001876AB /* QuerySnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuerySnViewController.m; sourceTree = "<group>"; };
+		327E26341AD9279E001876AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		327E26361AD927AA001876AB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		327E26381AD927B4001876AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		327E263D1AD92BF0001876AB /* JuheApisSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = JuheApisSDK.a; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK.a; sourceTree = "<group>"; };
+		327E263F1AD92C09001876AB /* JHAPISDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHAPISDK.h; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK/JHAPISDK.h; sourceTree = "<group>"; };
+		327E26401AD92C09001876AB /* JHOpenidSupplier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHOpenidSupplier.h; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK/JHOpenidSupplier.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327E263E1AD92BF0001876AB /* JuheApisSDK.a in Frameworks */,
+				327E26391AD927B4001876AB /* CoreLocation.framework in Frameworks */,
+				327E26371AD927AA001876AB /* AdSupport.framework in Frameworks */,
+				327E26351AD9279E001876AB /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,9 +82,11 @@
 		327E25FA1AD89ADC001876AB = {
 			isa = PBXGroup;
 			children = (
+				327E26411AD92C25001876AB /* JHAPISDK */,
 				327E26051AD89ADC001876AB /* appleSNQuery */,
 				327E26221AD89ADC001876AB /* appleSNQueryTests */,
 				327E26041AD89ADC001876AB /* Products */,
+				327E263A1AD927C3001876AB /* frameWorks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				327E260A1AD89ADC001876AB /* AppDelegate.h */,
-				327E260B1AD89ADC001876AB /* AppDelegate.m */,
+				327E260B1AD89ADC001876AB /* AppDelegate.mm */,
 				327E26071AD89ADC001876AB /* Info.plist */,
 				327E26081AD89ADC001876AB /* main.m */,
 			);
@@ -125,6 +141,26 @@
 				327E26241AD89ADC001876AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		327E263A1AD927C3001876AB /* frameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				327E26381AD927B4001876AB /* CoreLocation.framework */,
+				327E26361AD927AA001876AB /* AdSupport.framework */,
+				327E26341AD9279E001876AB /* CoreTelephony.framework */,
+			);
+			name = frameWorks;
+			sourceTree = "<group>";
+		};
+		327E26411AD92C25001876AB /* JHAPISDK */ = {
+			isa = PBXGroup;
+			children = (
+				327E263F1AD92C09001876AB /* JHAPISDK.h */,
+				327E26401AD92C09001876AB /* JHOpenidSupplier.h */,
+				327E263D1AD92BF0001876AB /* JuheApisSDK.a */,
+			);
+			name = JHAPISDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327E260C1AD89ADC001876AB /* AppDelegate.m in Sources */,
+				327E260C1AD89ADC001876AB /* AppDelegate.mm in Sources */,
 				327E26091AD89ADC001876AB /* main.m in Sources */,
 				327E26121AD89ADC001876AB /* ViewController.m in Sources */,
 				327E26311AD89E9D001876AB /* QuerySnViewController.m in Sources */,
@@ -359,6 +395,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = appleSNQuery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK",
+					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK/include",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -369,6 +410,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = appleSNQuery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK",
+					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK/include",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
