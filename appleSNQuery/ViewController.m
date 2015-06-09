@@ -25,7 +25,21 @@
         }
     }
 }
+- (IBAction)hideKeyboard:(id)sender {
+    [self.SNInput resignFirstResponder];
+}
 
+-(void)alertWithView
+{
+    UIAlertView *alertDialog;
+    alertDialog = [[UIAlertView alloc]
+                   initWithTitle:@"Alert Button Selected"
+                   message:@"I need your attention NOW"
+                   delegate:nil
+                   cancelButtonTitle:@"OK"
+                   otherButtonTitles:@"Maybe Later", @"Never", nil];
+    [alertDialog show];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
