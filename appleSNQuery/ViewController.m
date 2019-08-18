@@ -25,6 +25,15 @@
         }
     }
 }
+
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if ([self.SNInput.text length] <= 0){
+        [self alertWithView];
+        return false;
+    }
+    return true;
+}
+
 - (IBAction)hideKeyboard:(id)sender {
     [self.SNInput resignFirstResponder];
 }
@@ -33,11 +42,11 @@
 {
     UIAlertView *alertDialog;
     alertDialog = [[UIAlertView alloc]
-                   initWithTitle:@"Alert Button Selected"
-                   message:@"I need your attention NOW"
+                   initWithTitle:@"请输入要查询的车牌号"
+                   message:@""
                    delegate:nil
-                   cancelButtonTitle:@"OK"
-                   otherButtonTitles:@"Maybe Later", @"Never", nil];
+                   cancelButtonTitle:@"好"
+                   otherButtonTitles:nil];
     [alertDialog show];
 }
 
