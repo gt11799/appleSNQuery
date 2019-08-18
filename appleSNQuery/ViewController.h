@@ -2,8 +2,8 @@
 //  ViewController.h
 //  appleSNQuery
 //
-//  Created by bruce on 15/4/11.
-//  Copyright (c) 2015年 bruce. All rights reserved.
+//  Created by 宫亭 on 2019/8/18.
+//  Copyright © 2019 bruce. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -6,34 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		327E26091AD89ADC001876AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26081AD89ADC001876AB /* main.m */; };
-		327E260C1AD89ADC001876AB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 327E260B1AD89ADC001876AB /* AppDelegate.mm */; };
-		327E260F1AD89ADC001876AB /* appleSNQuery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 327E260D1AD89ADC001876AB /* appleSNQuery.xcdatamodeld */; };
-		327E26121AD89ADC001876AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26111AD89ADC001876AB /* ViewController.m */; };
-		327E26151AD89ADC001876AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327E26131AD89ADC001876AB /* Main.storyboard */; };
-		327E26171AD89ADC001876AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327E26161AD89ADC001876AB /* Images.xcassets */; };
-		327E261A1AD89ADC001876AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327E26181AD89ADC001876AB /* LaunchScreen.xib */; };
-		327E26261AD89ADC001876AB /* appleSNQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26251AD89ADC001876AB /* appleSNQueryTests.m */; };
-		327E26311AD89E9D001876AB /* QuerySnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E26301AD89E9D001876AB /* QuerySnViewController.m */; };
-		327E26351AD9279E001876AB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26341AD9279E001876AB /* CoreTelephony.framework */; };
-		327E26371AD927AA001876AB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26361AD927AA001876AB /* AdSupport.framework */; };
-		327E26391AD927B4001876AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26381AD927B4001876AB /* CoreLocation.framework */; };
-		327E263E1AD92BF0001876AB /* JuheApisSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E263D1AD92BF0001876AB /* JuheApisSDK.a */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		327E26201AD89ADC001876AB /* PBXContainerItemProxy */ = {
+		A23696262309A37500926021 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 327E25FB1AD89ADC001876AB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 327E26021AD89ADC001876AB;
+			remoteGlobalIDString = A236960D2309A37300926021;
 			remoteInfo = appleSNQuery;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		327E26031AD89ADC001876AB /* appleSNQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleSNQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E26071AD89ADC001876AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327E26081AD89ADC001876AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		327E260A1AD89ADC001876AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +27,6 @@
 		327E26141AD89ADC001876AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		327E26161AD89ADC001876AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		327E26191AD89ADC001876AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		327E261F1AD89ADC001876AB /* appleSNQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appleSNQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E26241AD89ADC001876AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327E26251AD89ADC001876AB /* appleSNQueryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appleSNQueryTests.m; sourceTree = "<group>"; };
 		327E262F1AD89E9D001876AB /* QuerySnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySnViewController.h; sourceTree = "<group>"; };
@@ -52,24 +34,20 @@
 		327E26341AD9279E001876AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		327E26361AD927AA001876AB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		327E26381AD927B4001876AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		327E263D1AD92BF0001876AB /* JuheApisSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = JuheApisSDK.a; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK.a; sourceTree = "<group>"; };
-		327E263F1AD92C09001876AB /* JHAPISDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHAPISDK.h; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK/JHAPISDK.h; sourceTree = "<group>"; };
-		327E26401AD92C09001876AB /* JHOpenidSupplier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHOpenidSupplier.h; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK/JHOpenidSupplier.h; sourceTree = "<group>"; };
+		A211B53223091C3C00BEFFCD /* car_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car_icon.jpg; path = ../../../Downloads/car_icon.jpg; sourceTree = "<group>"; };
+		A236960E2309A37300926021 /* appleSNQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleSNQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23696252309A37500926021 /* appleSNQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appleSNQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		327E26001AD89ADC001876AB /* Frameworks */ = {
+		A236960B2309A37300926021 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327E263E1AD92BF0001876AB /* JuheApisSDK.a in Frameworks */,
-				327E26391AD927B4001876AB /* CoreLocation.framework in Frameworks */,
-				327E26371AD927AA001876AB /* AdSupport.framework in Frameworks */,
-				327E26351AD9279E001876AB /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		327E261C1AD89ADC001876AB /* Frameworks */ = {
+		A23696222309A37500926021 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,7 +60,6 @@
 		327E25FA1AD89ADC001876AB = {
 			isa = PBXGroup;
 			children = (
-				327E26411AD92C25001876AB /* JHAPISDK */,
 				327E26051AD89ADC001876AB /* appleSNQuery */,
 				327E26221AD89ADC001876AB /* appleSNQueryTests */,
 				327E26041AD89ADC001876AB /* Products */,
@@ -93,8 +70,8 @@
 		327E26041AD89ADC001876AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				327E26031AD89ADC001876AB /* appleSNQuery.app */,
-				327E261F1AD89ADC001876AB /* appleSNQueryTests.xctest */,
+				A236960E2309A37300926021 /* appleSNQuery.app */,
+				A23696252309A37500926021 /* appleSNQueryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +86,7 @@
 				327E26301AD89E9D001876AB /* QuerySnViewController.m */,
 				327E26161AD89ADC001876AB /* Images.xcassets */,
 				327E26181AD89ADC001876AB /* LaunchScreen.xib */,
+				A211B53223091C3C00BEFFCD /* car_icon.jpg */,
 				327E260D1AD89ADC001876AB /* appleSNQuery.xcdatamodeld */,
 				327E26061AD89ADC001876AB /* Supporting Files */,
 			);
@@ -153,26 +131,16 @@
 			name = frameWorks;
 			sourceTree = "<group>";
 		};
-		327E26411AD92C25001876AB /* JHAPISDK */ = {
-			isa = PBXGroup;
-			children = (
-				327E263F1AD92C09001876AB /* JHAPISDK.h */,
-				327E26401AD92C09001876AB /* JHOpenidSupplier.h */,
-				327E263D1AD92BF0001876AB /* JuheApisSDK.a */,
-			);
-			name = JHAPISDK;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		327E26021AD89ADC001876AB /* appleSNQuery */ = {
+		A236960D2309A37300926021 /* appleSNQuery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 327E26291AD89ADC001876AB /* Build configuration list for PBXNativeTarget "appleSNQuery" */;
+			buildConfigurationList = A23696372309A37500926021 /* Build configuration list for PBXNativeTarget "appleSNQuery" */;
 			buildPhases = (
-				327E25FF1AD89ADC001876AB /* Sources */,
-				327E26001AD89ADC001876AB /* Frameworks */,
-				327E26011AD89ADC001876AB /* Resources */,
+				A236960A2309A37300926021 /* Sources */,
+				A236960B2309A37300926021 /* Frameworks */,
+				A236960C2309A37300926021 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -180,25 +148,25 @@
 			);
 			name = appleSNQuery;
 			productName = appleSNQuery;
-			productReference = 327E26031AD89ADC001876AB /* appleSNQuery.app */;
+			productReference = A236960E2309A37300926021 /* appleSNQuery.app */;
 			productType = "com.apple.product-type.application";
 		};
-		327E261E1AD89ADC001876AB /* appleSNQueryTests */ = {
+		A23696242309A37500926021 /* appleSNQueryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 327E262C1AD89ADC001876AB /* Build configuration list for PBXNativeTarget "appleSNQueryTests" */;
+			buildConfigurationList = A236963A2309A37500926021 /* Build configuration list for PBXNativeTarget "appleSNQueryTests" */;
 			buildPhases = (
-				327E261B1AD89ADC001876AB /* Sources */,
-				327E261C1AD89ADC001876AB /* Frameworks */,
-				327E261D1AD89ADC001876AB /* Resources */,
+				A23696212309A37500926021 /* Sources */,
+				A23696222309A37500926021 /* Frameworks */,
+				A23696232309A37500926021 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				327E26211AD89ADC001876AB /* PBXTargetDependency */,
+				A23696272309A37500926021 /* PBXTargetDependency */,
 			);
 			name = appleSNQueryTests;
 			productName = appleSNQueryTests;
-			productReference = 327E261F1AD89ADC001876AB /* appleSNQueryTests.xctest */;
+			productReference = A23696252309A37500926021 /* appleSNQueryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,16 +175,19 @@
 		327E25FB1AD89ADC001876AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = bruce;
 				TargetAttributes = {
-					327E26021AD89ADC001876AB = {
-						CreatedOnToolsVersion = 6.3;
+					A236960D2309A37300926021 = {
+						CreatedOnToolsVersion = 10.3;
 						DevelopmentTeam = P3TKC9BY8U;
+						ProvisioningStyle = Automatic;
 					};
-					327E261E1AD89ADC001876AB = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 327E26021AD89ADC001876AB;
+					A23696242309A37500926021 = {
+						CreatedOnToolsVersion = 10.3;
+						DevelopmentTeam = P3TKC9BY8U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A236960D2309A37300926021;
 					};
 				};
 			};
@@ -234,24 +205,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				327E26021AD89ADC001876AB /* appleSNQuery */,
-				327E261E1AD89ADC001876AB /* appleSNQueryTests */,
+				A236960D2309A37300926021 /* appleSNQuery */,
+				A23696242309A37500926021 /* appleSNQueryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		327E26011AD89ADC001876AB /* Resources */ = {
+		A236960C2309A37300926021 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327E26151AD89ADC001876AB /* Main.storyboard in Resources */,
-				327E261A1AD89ADC001876AB /* LaunchScreen.xib in Resources */,
-				327E26171AD89ADC001876AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		327E261D1AD89ADC001876AB /* Resources */ = {
+		A23696232309A37500926021 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,33 +229,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		327E25FF1AD89ADC001876AB /* Sources */ = {
+		A236960A2309A37300926021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327E260C1AD89ADC001876AB /* AppDelegate.mm in Sources */,
-				327E26091AD89ADC001876AB /* main.m in Sources */,
-				327E26121AD89ADC001876AB /* ViewController.m in Sources */,
-				327E26311AD89E9D001876AB /* QuerySnViewController.m in Sources */,
-				327E260F1AD89ADC001876AB /* appleSNQuery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		327E261B1AD89ADC001876AB /* Sources */ = {
+		A23696212309A37500926021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327E26261AD89ADC001876AB /* appleSNQueryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		327E26211AD89ADC001876AB /* PBXTargetDependency */ = {
+		A23696272309A37500926021 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 327E26021AD89ADC001876AB /* appleSNQuery */;
-			targetProxy = 327E26201AD89ADC001876AB /* PBXContainerItemProxy */;
+			target = A236960D2309A37300926021 /* appleSNQuery */;
+			targetProxy = A23696262309A37500926021 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,23 +277,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -351,6 +325,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -358,17 +333,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -387,72 +373,108 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
-		327E262A1AD89ADC001876AB /* Debug */ = {
+		A23696382309A37500926021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P3TKC9BY8U;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = appleSNQuery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK",
-					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK/include",
-				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bruce.appleSNQuery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		327E262B1AD89ADC001876AB /* Release */ = {
+		A23696392309A37500926021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3TKC9BY8U;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = appleSNQuery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK",
-					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK/include",
-				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bruce.appleSNQuery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		327E262D1AD89ADC001876AB /* Debug */ = {
+		A236963B2309A37500926021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P3TKC9BY8U;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = appleSNQueryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bruce.appleSNQueryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appleSNQuery.app/appleSNQuery";
 			};
 			name = Debug;
 		};
-		327E262E1AD89ADC001876AB /* Release */ = {
+		A236963C2309A37500926021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3TKC9BY8U;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = appleSNQueryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bruce.appleSNQueryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appleSNQuery.app/appleSNQuery";
 			};
 			name = Release;
@@ -469,20 +491,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		327E26291AD89ADC001876AB /* Build configuration list for PBXNativeTarget "appleSNQuery" */ = {
+		A23696372309A37500926021 /* Build configuration list for PBXNativeTarget "appleSNQuery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327E262A1AD89ADC001876AB /* Debug */,
-				327E262B1AD89ADC001876AB /* Release */,
+				A23696382309A37500926021 /* Debug */,
+				A23696392309A37500926021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		327E262C1AD89ADC001876AB /* Build configuration list for PBXNativeTarget "appleSNQueryTests" */ = {
+		A236963A2309A37500926021 /* Build configuration list for PBXNativeTarget "appleSNQueryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327E262D1AD89ADC001876AB /* Debug */,
-				327E262E1AD89ADC001876AB /* Release */,
+				A236963B2309A37500926021 /* Debug */,
+				A236963C2309A37500926021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

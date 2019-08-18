@@ -1,18 +1,12 @@
-//
-//  appleSNQueryTests.m
-//  appleSNQueryTests
-//
-//  Created by 宫亭 on 2019/8/18.
-//  Copyright © 2019 bruce. All rights reserved.
-//
+//___FILEHEADER___
 
 #import <XCTest/XCTest.h>
 
-@interface appleSNQueryTests : XCTestCase
+@interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
 
 @end
 
-@implementation appleSNQueryTests
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
