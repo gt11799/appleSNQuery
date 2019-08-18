@@ -4,12 +4,11 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--车牌查询-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -51,7 +50,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="CfX-jL-rHm">
+                    <tabBarItem key="tabBarItem" title="查询" id="VdC-8l-3nh"/>
+                    <navigationItem key="navigationItem" title="车牌查询" id="CfX-jL-rHm">
                         <barButtonItem key="backBarButtonItem" title="返回" id="qGd-5N-mS9"/>
                     </navigationItem>
                     <connections>
@@ -60,9 +60,74 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1108.6956521739132" y="265.84821428571428"/>
+            <point key="canvasLocation" x="2018.840579710145" y="265.84821428571428"/>
         </scene>
-        <!--Query Sn View Controller-->
+        <!--关于-->
+        <scene sceneID="Aqt-Tm-Dma">
+            <objects>
+                <viewController id="Ot8-QI-E2Y" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dvj-H2-P1E"/>
+                        <viewControllerLayoutGuide type="bottom" id="9xt-lR-nsn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T6k-Xx-Gul">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car_icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uY7-Ga-4Zw">
+                                <rect key="frame" x="87" y="234" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmZ-qa-w0B">
+                                <rect key="frame" x="0.0" y="382" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="车牌地域查询">
+                                        <attributes>
+                                            <font key="NSFont" size="27" name=".PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hE-Tk-HPb">
+                                <rect key="frame" x="0.0" y="428" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="1.0.1">
+                                        <attributes>
+                                            <font key="NSFont" size="23" name=".PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6y-ai-GY1">
+                                <rect key="frame" x="0.0" y="625" width="414" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="更多产品敬请期待">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name=".PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="关于" id="X9t-VJ-SVn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VKW-cb-ALW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786.9565217391305" y="682.36607142857144"/>
+        </scene>
+        <!--查询结果-->
         <scene sceneID="Yeo-O8-Ta6">
             <objects>
                 <viewController id="2r3-cu-sSK" customClass="QuerySnViewController" sceneMemberID="viewController">
@@ -119,7 +184,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LPi-iL-d2o"/>
+                    <navigationItem key="navigationItem" title="查询结果" id="LPi-iL-d2o">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="lOh-Q8-tu8"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="city" destination="TaV-R8-REM" id="4Zd-a6-XNb"/>
                         <outlet property="license" destination="d7v-mN-2WR" id="QzR-RK-pEY"/>
@@ -128,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P7b-et-aYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1544.9275362318842" y="266.51785714285711"/>
+            <point key="canvasLocation" x="2455.072463768116" y="265.84821428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FEM-fF-LTO">
@@ -141,12 +208,34 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="NuQ-Z2-sHc"/>
+                        <segue destination="M5B-Rn-I5P" kind="relationship" relationship="rootViewController" id="NuQ-Z2-sHc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nYr-hY-pDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="699" y="267"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="raB-Ql-253">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="M5B-Rn-I5P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="xmX-lv-BXl"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ayy-7i-Mow">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="RPX-K9-Kyw"/>
+                        <segue destination="Ot8-QI-E2Y" kind="relationship" relationship="viewControllers" id="yjU-ga-Ji9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MuW-vR-bNw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1108.6956521739132" y="265.84821428571428"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="car_icon.jpg" width="180" height="180"/>
+    </resources>
 </document>
