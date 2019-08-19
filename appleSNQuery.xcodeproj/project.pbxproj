@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		327E26031AD89ADC001876AB /* appleSNQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleSNQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327E26031AD89ADC001876AB /* 车牌查询.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "车牌查询.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E26071AD89ADC001876AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327E26081AD89ADC001876AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		327E260A1AD89ADC001876AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		327E26041AD89ADC001876AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				327E26031AD89ADC001876AB /* appleSNQuery.app */,
+				327E26031AD89ADC001876AB /* 车牌查询.app */,
 				327E261F1AD89ADC001876AB /* appleSNQueryTests.xctest */,
 			);
 			name = Products;
@@ -195,7 +195,7 @@
 			);
 			name = appleSNQuery;
 			productName = appleSNQuery;
-			productReference = 327E26031AD89ADC001876AB /* appleSNQuery.app */;
+			productReference = 327E26031AD89ADC001876AB /* 车牌查询.app */;
 			productType = "com.apple.product-type.application";
 		};
 		327E261E1AD89ADC001876AB /* appleSNQueryTests */ = {
@@ -423,7 +423,7 @@
 					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK",
 					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK/include",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "车牌查询";
 			};
 			name = Debug;
 		};
@@ -439,7 +439,7 @@
 					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK",
 					"$(PROJECT_DIR)/appleSNQuery/JuheApisSDK/include",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "车牌查询";
 			};
 			name = Release;
 		};
