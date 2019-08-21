@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,9 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JZ-PW-5RF">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JZ-PW-5RF">
                                 <rect key="frame" x="5" y="159" width="409" height="703"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -30,27 +30,34 @@
                                     <action selector="hideKeyboard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WOi-ai-woP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qG0-e2-h4U">
-                                <rect key="frame" x="137" y="159" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nxC-ZO-RId">
+                                <rect key="frame" x="57" y="154" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EfJ-rd-IOr">
+                                <rect key="frame" x="87" y="642" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qG0-e2-h4U">
+                                <rect key="frame" x="133" y="233" width="108" height="47"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <state key="normal" title="查询">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="2r3-cu-sSK" kind="push" identifier="querySN" id="D8o-aL-pOM"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nxC-ZO-RId">
-                                <rect key="frame" x="58" y="106" width="204" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qG0-e2-h4U" firstAttribute="top" secondItem="nxC-ZO-RId" secondAttribute="bottom" constant="49" id="DgX-35-dVt"/>
+                            <constraint firstItem="nxC-ZO-RId" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="H1G-Tn-9aG"/>
+                            <constraint firstItem="0JZ-PW-5RF" firstAttribute="leading" secondItem="EfJ-rd-IOr" secondAttribute="trailing" constant="-322" id="f8h-S6-yPh"/>
+                            <constraint firstItem="nxC-ZO-RId" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="66" id="kuz-1i-eSl"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="查询" id="VdC-8l-3nh"/>
+                    <tabBarItem key="tabBarItem" title="查询" image="car.png" id="VdC-8l-3nh"/>
                     <navigationItem key="navigationItem" title="车牌查询" id="CfX-jL-rHm">
                         <barButtonItem key="backBarButtonItem" title="返回" id="qGd-5N-mS9"/>
                     </navigationItem>
@@ -74,13 +81,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car_icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uY7-Ga-4Zw">
-                                <rect key="frame" x="87" y="234" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="car_icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uY7-Ga-4Zw">
+                                <rect key="frame" x="87" y="196" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmZ-qa-w0B">
-                                <rect key="frame" x="0.0" y="382" width="414" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmZ-qa-w0B">
+                                <rect key="frame" x="0.0" y="344" width="414" height="21"/>
                                 <attributedString key="attributedText">
                                     <fragment content="车牌地域查询">
                                         <attributes>
@@ -91,9 +96,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hE-Tk-HPb">
-                                <rect key="frame" x="0.0" y="428" width="414" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hE-Tk-HPb">
+                                <rect key="frame" x="0.0" y="396" width="414" height="21"/>
                                 <attributedString key="attributedText">
                                     <fragment content="1.0.1">
                                         <attributes>
@@ -104,9 +108,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6y-ai-GY1">
-                                <rect key="frame" x="0.0" y="625" width="414" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6y-ai-GY1">
+                                <rect key="frame" x="0.0" y="483" width="414" height="34"/>
                                 <attributedString key="attributedText">
                                     <fragment content="更多产品敬请期待">
                                         <attributes>
@@ -120,8 +123,18 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6hE-Tk-HPb" firstAttribute="centerX" secondItem="FmZ-qa-w0B" secondAttribute="centerX" id="0pM-Zd-Ifa"/>
+                            <constraint firstItem="z6y-ai-GY1" firstAttribute="top" secondItem="6hE-Tk-HPb" secondAttribute="bottom" constant="176" id="7ms-jQ-pZe"/>
+                            <constraint firstItem="uY7-Ga-4Zw" firstAttribute="top" secondItem="dvj-H2-P1E" secondAttribute="bottom" constant="146" id="EKs-bB-uFr"/>
+                            <constraint firstItem="FmZ-qa-w0B" firstAttribute="top" secondItem="uY7-Ga-4Zw" secondAttribute="bottom" constant="20" id="HnF-Ov-onT"/>
+                            <constraint firstItem="uY7-Ga-4Zw" firstAttribute="centerX" secondItem="T6k-Xx-Gul" secondAttribute="centerX" id="NHs-Ip-4N4"/>
+                            <constraint firstItem="z6y-ai-GY1" firstAttribute="centerX" secondItem="T6k-Xx-Gul" secondAttribute="centerX" id="bnu-jZ-8Q2"/>
+                            <constraint firstItem="FmZ-qa-w0B" firstAttribute="centerX" secondItem="uY7-Ga-4Zw" secondAttribute="centerX" id="fRZ-n7-AUO"/>
+                            <constraint firstItem="6hE-Tk-HPb" firstAttribute="top" secondItem="FmZ-qa-w0B" secondAttribute="bottom" constant="25" id="vEG-5z-sPv"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="关于" id="X9t-VJ-SVn"/>
+                    <tabBarItem key="tabBarItem" title="关于" image="home.png" id="X9t-VJ-SVn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKW-cb-ALW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -222,6 +235,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="xmX-lv-BXl"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ayy-7i-Mow">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -236,6 +250,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="car.png" width="30" height="30"/>
         <image name="car_icon.jpg" width="180" height="180"/>
+        <image name="home.png" width="30" height="30"/>
     </resources>
 </document>
