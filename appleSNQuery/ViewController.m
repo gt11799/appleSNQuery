@@ -11,6 +11,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *SNInput;
+@property (weak, nonatomic) IBOutlet UIButton *queryButton;
 
 @end
 
@@ -52,6 +53,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"car_paper_1.jpg"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage: image]];
+    [self.queryButton setFrame:CGRectMake(173, 269, 1130, 144)];
+//    self.queryButton.frame.size = CGSizeMake(width, height);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
