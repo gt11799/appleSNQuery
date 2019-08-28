@@ -209,6 +209,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VID-GR-UO6">
+                                <rect key="frame" x="20" y="268" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -220,14 +226,15 @@
                             <constraint firstItem="Rre-BZ-ZxN" firstAttribute="leading" secondItem="S5I-NK-38j" secondAttribute="leading" constant="30" id="H4h-SB-OcO"/>
                             <constraint firstItem="d7v-mN-2WR" firstAttribute="top" secondItem="ZcZ-07-JOd" secondAttribute="bottom" constant="45" id="IHL-of-JQ4"/>
                             <constraint firstItem="d7v-mN-2WR" firstAttribute="leading" secondItem="S5I-NK-38j" secondAttribute="leading" constant="139" id="Id0-T9-rRI"/>
+                            <constraint firstItem="VID-GR-UO6" firstAttribute="leading" secondItem="S5I-NK-38j" secondAttribute="leading" constant="30" id="Kyn-B3-h3r"/>
                             <constraint firstItem="TaV-R8-REM" firstAttribute="top" secondItem="hqI-kl-rMc" secondAttribute="bottom" constant="30" id="NYQ-ab-AU3"/>
                             <constraint firstAttribute="trailing" secondItem="d7v-mN-2WR" secondAttribute="trailing" constant="127" id="PH5-2G-gn6"/>
                             <constraint firstItem="hqI-kl-rMc" firstAttribute="leading" secondItem="S5I-NK-38j" secondAttribute="leading" constant="139" id="SPB-P7-uzf"/>
                             <constraint firstItem="hqI-kl-rMc" firstAttribute="top" secondItem="d7v-mN-2WR" secondAttribute="bottom" constant="30" id="Seq-P6-GJq"/>
                             <constraint firstAttribute="trailing" secondItem="TaV-R8-REM" secondAttribute="trailing" constant="127" id="alz-vB-6ub"/>
-                            <constraint firstItem="ohi-0V-fBJ" firstAttribute="leading" secondItem="S5I-NK-38j" secondAttribute="leading" constant="27" id="jbf-yr-6Sl"/>
+                            <constraint firstItem="VID-GR-UO6" firstAttribute="top" secondItem="ohi-0V-fBJ" secondAttribute="bottom" constant="30" id="h7i-by-lCA"/>
+                            <constraint firstItem="ohi-0V-fBJ" firstAttribute="leading" secondItem="S5I-NK-38j" secondAttribute="leading" constant="30" id="jbf-yr-6Sl"/>
                             <constraint firstItem="vvM-xR-vXN" firstAttribute="top" secondItem="Rre-BZ-ZxN" secondAttribute="bottom" constant="30" id="oio-zn-HYe"/>
-                            <constraint firstAttribute="trailing" secondItem="ohi-0V-fBJ" secondAttribute="trailing" constant="316" id="ydb-1A-mYd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="查询结果" prompt="返回" id="LPi-iL-d2o">
