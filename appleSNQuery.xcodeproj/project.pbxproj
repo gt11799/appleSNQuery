@@ -24,6 +24,10 @@
 		3572D0B3230CDF8600AB284B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B2230CDF8600AB284B /* home.png */; };
 		3572D0B6230D088600AB284B /* car_paper_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B4230D088500AB284B /* car_paper_2.jpg */; };
 		3572D0B7230D088600AB284B /* car_paper_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B5230D088600AB284B /* car_paper_1.jpg */; };
+		3572D0BA2316F24000AB284B /* AppIcon1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B92316F24000AB284B /* AppIcon1024x1024.jpg */; };
+		3572D0BE2316F2F400AB284B /* AppIcon87x87.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0BB2316F2F300AB284B /* AppIcon87x87.jpg */; };
+		3572D0BF2316F2F400AB284B /* AppIcon120x120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0BC2316F2F300AB284B /* AppIcon120x120.jpg */; };
+		3572D0C02316F2F400AB284B /* AppIcon60x60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0BD2316F2F400AB284B /* AppIcon60x60.jpg */; };
 		A23696452309AFB600926021 /* car_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A23696442309AFB600926021 /* car_icon.jpg */; };
 		A23696482309AFC800926021 /* query.png in Resources */ = {isa = PBXBuildFile; fileRef = A23696462309AFC800926021 /* query.png */; };
 		A23696492309AFC800926021 /* account.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A23696472309AFC800926021 /* account.jpg */; };
@@ -69,6 +73,10 @@
 		3572D0B4230D088500AB284B /* car_paper_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_paper_2.jpg; sourceTree = "<group>"; };
 		3572D0B5230D088600AB284B /* car_paper_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_paper_1.jpg; sourceTree = "<group>"; };
 		3572D0B8231660E900AB284B /* mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobileprovision; sourceTree = "<group>"; };
+		3572D0B92316F24000AB284B /* AppIcon1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon1024x1024.jpg; sourceTree = "<group>"; };
+		3572D0BB2316F2F300AB284B /* AppIcon87x87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon87x87.jpg; sourceTree = "<group>"; };
+		3572D0BC2316F2F300AB284B /* AppIcon120x120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon120x120.jpg; sourceTree = "<group>"; };
+		3572D0BD2316F2F400AB284B /* AppIcon60x60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon60x60.jpg; sourceTree = "<group>"; };
 		A23696442309AFB600926021 /* car_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_icon.jpg; sourceTree = "<group>"; };
 		A23696462309AFC800926021 /* query.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = query.png; sourceTree = "<group>"; };
 		A23696472309AFC800926021 /* account.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = account.jpg; sourceTree = "<group>"; };
@@ -125,6 +133,10 @@
 				3572D0B0230CDEA200AB284B /* car.png */,
 				A236964B2309B0BA00926021 /* 16pic_8577238_b.jpg */,
 				A236964A2309B0BA00926021 /* 16pic_8621805_b.jpg */,
+				3572D0B92316F24000AB284B /* AppIcon1024x1024.jpg */,
+				3572D0BD2316F2F400AB284B /* AppIcon60x60.jpg */,
+				3572D0BB2316F2F300AB284B /* AppIcon87x87.jpg */,
+				3572D0BC2316F2F300AB284B /* AppIcon120x120.jpg */,
 				3572D0B5230D088600AB284B /* car_paper_1.jpg */,
 				3572D0B4230D088500AB284B /* car_paper_2.jpg */,
 				3572D0B2230CDF8600AB284B /* home.png */,
@@ -245,6 +257,7 @@
 					};
 					327E261E1AD89ADC001876AB = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 242A8TDYCN;
 						TestTargetID = 327E26021AD89ADC001876AB;
 					};
 				};
@@ -282,9 +295,13 @@
 				3572D0B1230CDEA200AB284B /* car.png in Resources */,
 				A236964C2309B0BA00926021 /* 16pic_8621805_b.jpg in Resources */,
 				327E261A1AD89ADC001876AB /* LaunchScreen.xib in Resources */,
+				3572D0BA2316F24000AB284B /* AppIcon1024x1024.jpg in Resources */,
 				3572D0B3230CDF8600AB284B /* home.png in Resources */,
 				A236964D2309B0BA00926021 /* 16pic_8577238_b.jpg in Resources */,
+				3572D0BE2316F2F400AB284B /* AppIcon87x87.jpg in Resources */,
 				A23696482309AFC800926021 /* query.png in Resources */,
+				3572D0C02316F2F400AB284B /* AppIcon60x60.jpg in Resources */,
+				3572D0BF2316F2F400AB284B /* AppIcon120x120.jpg in Resources */,
 				327E26171AD89ADC001876AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,9 +383,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HongYu You (3Z3DU9YVDS)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 242A8TDYCN;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -385,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
@@ -409,9 +427,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HongYu You (242A8TDYCN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 242A8TDYCN;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -422,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +456,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 242A8TDYCN;
 				INFOPLIST_FILE = appleSNQuery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +475,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 242A8TDYCN;
 				INFOPLIST_FILE = appleSNQuery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

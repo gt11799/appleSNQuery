@@ -1,53 +1,57 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "AppIcon60x60-1.jpg",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "car_icon.jpg",
+      "filename" : "AppIcon60x60.jpg",
       "scale" : "3x"
-    },
-    {
-      "idiom" : "iphone",
-      "size" : "29x29",
-      "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "car_icon-1.jpg",
+      "filename" : "AppIcon60x60-2.jpg",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "AppIcon87x87.jpg",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "AppIcon60x60-3.jpg",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "car_icon-2.jpg",
+      "filename" : "AppIcon120x120.jpg",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "AppIcon120x120-2.jpg",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "car_icon-3.jpg",
+      "filename" : "AppIcon120x120-1.jpg",
       "scale" : "3x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "16pic_8577238_b.jpg",
+      "filename" : "AppIcon1024x1024.jpg",
       "scale" : "1x"
     }
   ],

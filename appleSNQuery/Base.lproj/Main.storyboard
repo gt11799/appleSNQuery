@@ -237,7 +237,7 @@
                             <constraint firstItem="vvM-xR-vXN" firstAttribute="top" secondItem="Rre-BZ-ZxN" secondAttribute="bottom" constant="30" id="oio-zn-HYe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="查询结果" prompt="返回" id="LPi-iL-d2o">
+                    <navigationItem key="navigationItem" title="查询结果" id="LPi-iL-d2o">
                         <barButtonItem key="backBarButtonItem" title="返回" id="lOh-Q8-tu8"/>
                     </navigationItem>
                     <connections>
