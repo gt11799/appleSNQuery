@@ -7,8 +7,6 @@
 //
 
 #import "QuerySnViewController.h"
-#import "JHAPISDK.h"
-#import "JHOpenidSupplier.h"
 
 @interface QuerySnViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *license;

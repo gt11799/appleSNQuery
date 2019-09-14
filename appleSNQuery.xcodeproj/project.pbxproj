@@ -19,7 +19,6 @@
 		327E26351AD9279E001876AB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26341AD9279E001876AB /* CoreTelephony.framework */; };
 		327E26371AD927AA001876AB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26361AD927AA001876AB /* AdSupport.framework */; };
 		327E26391AD927B4001876AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E26381AD927B4001876AB /* CoreLocation.framework */; };
-		327E263E1AD92BF0001876AB /* JuheApisSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E263D1AD92BF0001876AB /* JuheApisSDK.a */; };
 		3572D0B1230CDEA200AB284B /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B0230CDEA200AB284B /* car.png */; };
 		3572D0B3230CDF8600AB284B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B2230CDF8600AB284B /* home.png */; };
 		3572D0B6230D088600AB284B /* car_paper_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3572D0B4230D088500AB284B /* car_paper_2.jpg */; };
@@ -65,9 +64,6 @@
 		327E26341AD9279E001876AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		327E26361AD927AA001876AB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		327E26381AD927B4001876AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		327E263D1AD92BF0001876AB /* JuheApisSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = JuheApisSDK.a; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK.a; sourceTree = "<group>"; };
-		327E263F1AD92C09001876AB /* JHAPISDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHAPISDK.h; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK/JHAPISDK.h; sourceTree = "<group>"; };
-		327E26401AD92C09001876AB /* JHOpenidSupplier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHOpenidSupplier.h; path = appleSNQuery/JuheApisSDK/include/JuheApisSDK/JHOpenidSupplier.h; sourceTree = "<group>"; };
 		3572D0B0230CDEA200AB284B /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 		3572D0B2230CDF8600AB284B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		3572D0B4230D088500AB284B /* car_paper_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_paper_2.jpg; sourceTree = "<group>"; };
@@ -89,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327E263E1AD92BF0001876AB /* JuheApisSDK.a in Frameworks */,
 				327E26391AD927B4001876AB /* CoreLocation.framework in Frameworks */,
 				327E26371AD927AA001876AB /* AdSupport.framework in Frameworks */,
 				327E26351AD9279E001876AB /* CoreTelephony.framework in Frameworks */,
@@ -110,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				3572D0B8231660E900AB284B /* mobileprovision */,
-				327E26411AD92C25001876AB /* JHAPISDK */,
 				327E26051AD89ADC001876AB /* appleSNQuery */,
 				327E26221AD89ADC001876AB /* appleSNQueryTests */,
 				327E26041AD89ADC001876AB /* Products */,
@@ -192,16 +186,6 @@
 				327E26341AD9279E001876AB /* CoreTelephony.framework */,
 			);
 			name = frameWorks;
-			sourceTree = "<group>";
-		};
-		327E26411AD92C25001876AB /* JHAPISDK */ = {
-			isa = PBXGroup;
-			children = (
-				327E263F1AD92C09001876AB /* JHAPISDK.h */,
-				327E26401AD92C09001876AB /* JHOpenidSupplier.h */,
-				327E263D1AD92BF0001876AB /* JuheApisSDK.a */,
-			);
-			name = JHAPISDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
